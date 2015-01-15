@@ -1,0 +1,140 @@
+body {
+	background-image: url(../images/background.jpg);
+}
+
+body, html {
+	width: 100%;
+	height: 100%;
+}
+
+
+
+@font-face /*font title*/ {
+    font-family: 'tertre'; /*a name to be used later*/
+    src: url('../fonts/tertre-xbol.otf'); /*URL to font*/
+}
+
+
+.login-form {
+	margin-top: 55px;
+}
+
+.login-form h1, .login-form h2 {
+	text-align: center;
+	color: white;
+}
+
+.login-form h1 {
+	font-family: "tertre";
+	font-size: 100px;
+	font-weight: bold;
+	margin: 0px;
+}
+
+.login-form h2 {
+	font-size: 18px;
+	color: white;
+	font-family: arial;
+	margin: 20px 40px 10px;
+	font-weight: normal;
+}
+
+.white-link {
+	color: white !important;
+	margin: -5px !important;
+}
+
+.login-input {
+	height: 50px !important;
+	border-radius: 2px !important;
+	padding: 13px !important;
+	font-size : 15px !important;
+	padding-right: 37px !important;
+	margin-top: 8px;
+	margin-bottom: -14px;	
+}
+
+
+.btn-submit {
+	background-color: #66AFE3 !important;
+	padding: 13px !important;
+	border-radius: 2px !important;
+	font: bold 15px arial !important;
+	border: 0px ! important;
+}
+
+#btn-submit-login {
+	margin-top: 25px !important;
+}
+
+#btn-submit-signup {
+	margin: 10px;
+	padding-left: 30px !important;
+	padding-right: 30px !important;
+}
+
+#info-us {
+	margin-top: 100px;
+	margin-left: 0%;
+}
+
+.modal-title {
+	font-size: 15px;
+}
+
+.modal-sub-header {
+	font-family: "tertre";
+	font-size: 60px;
+	color: black;
+	font-weight: bold;
+	margin: 0px;
+}
+
+.modal-body h2, .modal-body h3 {
+	text-align: center;
+}
+
+.modal-body h3 {
+	font-family: arial;
+	font-size: 17px;
+	margin: 20px;
+}
+
+.signup-input {
+	margin: 1px;
+}
+
+#uStatus {
+	position: absolute;
+	top: 40.5%;
+	left: 85.1% ;
+}
+
+#eStatus {
+	position: absolute;
+	top: 58%;
+	left: 85.1%;
+}
+
+#eye{
+	position: absolute;
+	color: #707070;
+	top: 75.4% ;
+	left: 99%;
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	.login-form {
+		margin-top: 170px;
+	}
+	#info-us {
+		margin-top: 254px;
+		margin-left: 0%;
+	}
+}
+
+.cross-pipe{
+	position: absolute;
+}
+
