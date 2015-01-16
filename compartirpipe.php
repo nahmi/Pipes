@@ -1,7 +1,8 @@
 <?php
-session_start();
-include 'srv.php';
+	session_start();
+	include 'ServerData.php';
 	$srv = new ServerData;
+
 	$con=mysql_connect($srv->GetName(), $srv->GetUser(), $srv->GetPass());
 	mysql_select_db("pipes",$con);
 /*
@@ -15,8 +16,8 @@ if((mysql_result($res, 0,0))==$_SESSION['id']){
 	$res=mysql_query($sql, $con);
 }
 */
-$sql="insert into tblcompartir (Id_1, Id_pipe) values (".$_REQUEST['idamigo'].", ".$_REQUEST['idpipe'].")";
-$res=mysql_query($sql, $con);
+	$sql="insert into tblcompartir (Id_1, Id_pipe) values (".$_REQUEST['idamigo'].", ".$_REQUEST['idpipe'].")";
+	$res=mysql_query($sql, $con);
 
-echo $sql;
+	echo $sql;
 ?>

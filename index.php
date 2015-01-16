@@ -1,9 +1,9 @@
 <?php
-session_start();
+	session_start();
 	
 	if(isset($_SESSION['id']))
 	{
-		header("location: ../houm-vale/home.html");
+		header("location: ../home/pipes-home.html");
 	}
 ?>
 
@@ -18,9 +18,9 @@ session_start();
 
 	<meta charset="utf-8">
 
-	<script src="jquery-1.9.1.js" type="text/javascript"></script> 
-	<script src="jquery-ui-1.11.1/jquery-ui.js" type="text/javascript"></script>
-	<script src="index.js" type="text/javascript" ></script>
+	<script src="js/jquery/jquery-1.9.1.js" type="text/javascript"></script> 
+	<script src="js/jquery/jquery-ui-1.11.1/jquery-ui.js" type="text/javascript"></script>
+	<script src="js/index.js" type="text/javascript" ></script>
 
 	<!--boot-->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
@@ -34,20 +34,9 @@ session_start();
 </head>
 <body>
 
-	<div id="fb-root"></div>
-	<script>(function(d, s, id) {
-	  var js, fjs = d.getElementsByTagName(s)[0];
-	  if (d.getElementById(id)) return;
-	  js = d.createElement(s); js.id = id;
-	  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=1502848609958241&version=v2.0";
-	  fjs.parentNode.insertBefore(js, fjs);
-	}(document, 'script', 'facebook-jssdk'));</script>
-
 	<div class="container-fluid">
 		<div class="row">
 			<button class="btn btn-primary pull-right btn-lg btn-submit" id="btn-submit-signup" data-toggle="modal" data-target="#myModal"> Sign up </button>
-
-  			<div class="fb-login-button" data-max-rows="10" data-size="xlarge" data-show-faces="false" data-auto-logout-link="false"></div>
 		</div>
 		<div class="row">
 			<div class="col-md-4 col-md-offset-4 login-form">

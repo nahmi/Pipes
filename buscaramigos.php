@@ -1,6 +1,6 @@
 <?php
 session_start();
-include 'srv.php';
+include 'ServerData.php';
 $srv = new ServerData;
 $con=mysql_connect($srv->GetName(), $srv->GetUser(), $srv->GetPass());
 mysql_select_db("pipes",$con);

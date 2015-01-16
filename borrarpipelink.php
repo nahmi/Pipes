@@ -2,7 +2,7 @@
 session_start();
 function borrarlink($idlink)
 {
-	include 'srv.php';
+	include 'ServerData.php';
 	$srv = new ServerData;
 	$con=mysql_connect($srv->GetName(), $srv->GetUser(), $srv->GetPass());
 	mysql_select_db("pipes",$con);
@@ -21,7 +21,7 @@ function borrarlink($idlink)
 
 function borrarpipe($idpipe)
 {
-	include 'srv.php';
+	include 'ServerData.php';
 	$srv = new ServerData;
 	$con=mysql_connect($srv->GetName(), $srv->GetUser(), $srv->GetPass());
 	mysql_select_db("pipes",$con);

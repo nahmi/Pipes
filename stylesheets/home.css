@@ -1,0 +1,306 @@
+body {
+ padding-top: 70px;
+}
+
+
+#wrapper {
+	margin-top: -20px;
+}
+
+@font-face /*font title*/ {
+    font-family: 'tertre'; /*a name to be used later*/
+
+    src: url('../fonts/tertre-xbol.otf'); /*URL to font*/
+}
+
+
+#nav-title {
+	font-family: "tertre" !important;
+	font-size: 23px !important;
+	padding-left: 25px !important;
+}
+
+#drop1{
+	font-size: 14px;
+}
+
+.show-pipe {
+	background-color: black;
+	width: 370px;
+	height: 250px;
+	padding:0px;
+	margin: 0px;
+	position: absolute;
+
+}
+
+.sidebar-nav li a {
+
+	color: white!important;
+
+	}
+
+
+ul {
+	list-style: none;
+}
+
+#add-plus {
+	color:white;
+	position: absolute;
+	top:40%;
+	left:45%;
+	font-size: 50px;
+}
+
+.pipe-padding {
+	padding-bottom: 290px;
+	padding-right: 10px !important;
+	padding-left: 130px !important;
+}
+
+#Modal2 h4{
+	font-size: 18px;
+	font-family: arial;
+	margin: 10px 20px 5px;
+	font-weight: bold;
+	color: #111F4F;
+}
+
+#Modal2 p {
+	font-size: 15px;
+	font-weight: bold;
+	font-family: arial;
+    padding-top: 20px;
+	
+}
+
+#Modal2 form  {
+	padding-top: 10px;
+	padding-right: 0px;
+}
+
+.add-pipe-input {
+	height: 50px !important;
+	border-radius: 8px !important;
+	padding: 13px !important;
+	font-size : 20px !important;
+	padding-right: 37px !important;
+	margin-top: 8px;
+	margin-bottom: -14px;
+}
+
+.add-pipe-btn {	
+	padding: 11px !important;
+	border-radius: 5px !important;
+	font: bold 15px arial !important;
+	border: 0px ! important;
+}
+
+#add-pipe-btn-close {
+	background-color: white !important;
+}
+
+#add-pipe-btn-save {
+	background-color: #66AFE3 !important;
+}
+
+#add-pipe-btn-crear {
+	background-color: #66AFE3 !important;
+}
+
+#add-pipe-btn-share {
+	color: #4B4491;
+}
+	
+.show-pipe:hover{
+	cursor: hand;
+}
+
+.cross-link {
+	color: #BABABA;
+	top: 11px;
+	left: 0px;
+	position: absolute;
+}
+
+
+
+.cross-pipe{
+	
+	color: #BABABA;
+	top: 11px;
+	left: 73%;
+	position: absolute;
+}
+
+
+.form-group-links {
+	padding-left: 30px;
+	padding-top: 10px;
+	font-weight: bold;
+}
+
+#pipe-add-link-name {
+	position: relative;
+	font-family: arial;
+	font-size: 15px !important;
+	width: 30%;
+	padding: 3px 20px 3px 20px !important;
+	margin-bottom: -50px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 15px;
+
+
+}
+
+/*#add-link-title {
+	position: relative;
+	font-size: 16px !important;
+	padding-top: 10px !important;
+	margin-left: 0px !important;
+	padding-bottom: 3px !important;
+
+}*/
+
+#pipe-add-link {
+	position: relative;
+	width: 49%;
+	padding: 3px 20px 3px 20px !important;
+	font-size: 15px !important;
+	margin-bottom: 2px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 200px;
+
+	
+}
+
+#new {
+	margin-top: 30px;
+}
+
+#form {
+
+    margin-bottom: 5px !important;
+
+}
+
+
+
+#ModalLinks h4{
+	font-size: 18px;
+	font-family: arial;
+	margin: 10px 20px 5px;
+	font-weight: bold;
+	color: #111F4F;
+}
+
+.coso{
+	background-color: black;
+	color: white;
+	opacity: 0.8;
+	position: absolute;;
+	height: 33%;
+	width: 100%;
+	top: 67%;
+	padding-left: 10px !important;
+}
+
+.piti{
+	margin-left: 15px;
+	margin-top: 10px;
+	margin-bottom: -10px;
+	font-family: arial;
+	font-size: 23px;
+}
+
+.desc{
+	margin-left: 19px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-family: arial;
+	font-size: 15px;
+}
+
+.lupilla-sign {
+	font-size: 20px !important;
+}
+
+.navbar-form .input-group>.form-control {
+	width: 290px !important;
+}
+
+.col-edit-srch {
+	width: 35% !important;
+	height: 0px!important;
+}
+
+.edit-input-group {
+	position: fixed !important;
+	z-index: 444;
+}
+
+
+#share-friends {
+	width: 200px;
+	margin-left: 10px;
+}
+
+
+.show-friend {
+	background-color: black;
+	width: 200px;
+	height: 200px;
+	padding:0px;
+	margin: 0px;
+	position: absolute;
+
+}
+
+.friend-padding {
+	padding-bottom: 260px;
+	padding-right: 0px !important;
+	padding-left: 73px !important;
+}
+
+.add-friend{
+	left:  38% !important;
+
+}
+
+
+
+@media (min-width: 992px) and (max-width: 1199px)  {
+
+	
+	.show-pipe {
+		width: 350px !important;
+		height: 220px !important;
+	}
+
+	#change-res {
+		width: 350px !important;
+		height: 220px !important;
+	}
+
+	.pipe-padding {
+
+		padding-bottom: 290px;
+		padding-right: 10px !important;
+		padding-left: 30px !important;
+	}
+
+	body {
+		  overflow-x:hidden;
+	}
+
+	.col-edit-srch {
+	margin-right: 100px !important;
+	}
+
+}
+
+
+
